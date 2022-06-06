@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- ITS 5 X 2 main layout -->
+    <!-- DARK WIDGET 02 -->
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf,UselessParent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <TextClock
+                android:format12Hour="hh"
+                android:gravity="center"
+                android:fontFamily="@font/helveticaneueultralight"
+                android:textSize="90sp"
+                android:background="@drawable/black_square_01"
+                android:textColor="@color/white"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:ignore="NewApi" />
+
+            <TextClock
+                android:format12Hour="cccc"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_width="110dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="13sp"
+                android:fontFamily="@font/market_fresh"
+                android:layout_height="wrap_content"
+                tools:ignore="NewApi" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:background="@drawable/white_circle_dought"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="35dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:background="@drawable/white_circle_dought"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="125dp"
+            android:layout_height="125dp">
+
+            <TextClock
+                android:textSize="90sp"
+                android:background="@drawable/black_square_01"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:format12Hour="mm"
+                android:gravity="center"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                tools:ignore="NewApi" />
+            <TextClock
+                android:format12Hour="A"
+                android:id="@+id/heart_layout_04"
+                android:textSize="13sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/droidsans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="NewApi,RtlHardcoded" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/heart_layout_01"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red_heart_circle_black"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="2.5dp"
+            android:layout_gravity="top"
+            android:layout_width="27dp"
+            android:layout_height="45dp"
+            tools:ignore="RtlHardcoded">
+
+            <TextClock
+                android:id="@+id/heart_layout_02"
+                android:format12Hour="ss"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="NewApi" />
+
+            <ImageView
+                android:id="@+id/heart_layout_03"
+                android:background="@drawable/red_heart_shape"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

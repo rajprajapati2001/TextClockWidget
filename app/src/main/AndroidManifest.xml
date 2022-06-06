@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.android.textclockwidget">
+    <!-- PROJECT:- 24 May 2022/Tuesday MADE BY:- Raj P. Prajaapati -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AboutRajTheme">
+
+        <receiver android:label="@string/dark_name_01" android:exported="true" android:name=".A_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/a_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_01" android:exported="true" android:name=".B_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/b_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_02" android:exported="true" android:name=".C_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/c_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_02" android:exported="true" android:name=".D_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/d_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_03" android:exported="true" android:name=".E_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/e_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_03" android:exported="true" android:name=".F_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/f_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_04" android:exported="true" android:name=".G_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/g_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_04" android:exported="true" android:name=".H_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/h_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_05" android:exported="true" android:name=".I_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/i_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_05" android:exported="true" android:name=".J_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/j_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_06" android:exported="true" android:name=".K_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/k_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_06" android:exported="true" android:name=".L_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/l_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_07" android:exported="true" android:name=".M_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/m_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_07" android:exported="true" android:name=".N_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/n_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_08" android:exported="true" android:name=".O_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/o_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_08" android:exported="true" android:name=".P_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/p_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_09" android:exported="true" android:name=".Q_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/o_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_09" android:exported="true" android:name=".R_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/p_simple_widget" />
+        </receiver>
+
+        <receiver android:label="@string/dark_name_10" android:exported="true" android:name=".S_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/s_simple_widget" />
+        </receiver>
+        <receiver android:label="@string/light_name_10" android:exported="true" android:name=".T_MainActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/t_simple_widget" />
+        </receiver>
+
+        <activity android:exported="true" android:label="@string/app_name" android:name=".About_Widget_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:label="@string/app_name" android:name=".About_Me_MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- ITS 2 X 3 main layout -->
+    <!-- LIGHT WIDGET 07 -->
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp">
+
+        <TextClock
+            android:background="@drawable/white_square_01"
+            android:format12Hour="hh"
+            android:fontFamily="@font/helveticaneueultralight"
+            android:textSize="65sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            tools:ignore="NewApi" />
+        <TextClock
+            android:textColor="@color/black"
+            android:format12Hour="cccc"
+            android:gravity="center"
+            android:fontFamily="@font/market_fresh"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            tools:ignore="NewApi,SmallSp" />
+
+    </RelativeLayout>
+
+    <TextClock
+        android:format12Hour="mm"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="95dp"
+        android:gravity="center"
+        android:textSize="65sp"
+        android:textColor="@color/black"
+        android:background="@drawable/white_square_01"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        tools:ignore="NewApi" />
+
+    <TextClock
+        android:id="@+id/heart_layout_04"
+        android:format12Hour="A"
+        android:textColor="@color/black"
+        android:fontFamily="@font/droidsans"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/white_square_01"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        tools:ignore="NewApi" />
+
+</RelativeLayout>

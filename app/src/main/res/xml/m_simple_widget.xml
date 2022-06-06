@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minWidth="110dp"
+    android:minHeight="200dp"
+    android:updatePeriodMillis="86400000"
+    android:initialLayout="@layout/m_activity_main"
+    android:resizeMode="horizontal|vertical"
+    android:description="@string/dark_name_07"
+    android:widgetCategory="home_screen|keyguard"
+    android:previewImage="@drawable/text_clock_image_013"
+    tools:targetApi="jelly_bean_mr1">
+
+</appwidget-provider>

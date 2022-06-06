@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- ITS 5 X 2 main layout -->
+    <!-- DARK WIDGET 01 -->
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf,UselessParent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextClock
+                android:format12Hour="hh"
+                android:gravity="center"
+                android:fontFamily="@font/helveticaneueultralight"
+                android:textSize="100sp"
+                android:background="@drawable/black_square_01"
+                android:textColor="@color/white"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                tools:ignore="NewApi" />
+
+            <TextClock
+                android:format12Hour="cccc"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_width="130dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/market_fresh"
+                android:layout_height="wrap_content"
+                tools:ignore="NewApi" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp">
+
+            <ImageView
+                android:background="@drawable/white_circle_dought"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="35dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:background="@drawable/white_circle_dought"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="140dp"
+            android:layout_height="140dp">
+
+            <TextClock
+                android:textSize="100sp"
+                android:background="@drawable/black_square_01"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:format12Hour="mm"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                tools:ignore="NewApi" />
+            <TextClock
+                android:id="@+id/heart_layout_04"
+                android:format12Hour="A"
+                android:textSize="15sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/droidsans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="NewApi,RtlHardcoded" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

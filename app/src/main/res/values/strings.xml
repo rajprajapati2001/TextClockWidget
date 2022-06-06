@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TextClock Widget</string>
+
+    <string name="developer_raj_name">Developed By :- Raj P. Prajapati</string>
+    <string name="created_details">Created on :- 24 May 2022 / Tuesday</string>
+
+    <string name="about_layout_exit_btn">EXIT</string>
+    <string name="about_layout_back_btn">BACK</string>
+    <string name="next_text">NEXT</string>
+    <string name="previous_text">PREVIOUS</string>
+
+    <string name="dark_name_01">Dark Widget 01</string>
+    <string name="light_name_01">Light Widget 01</string>
+
+    <string name="dark_name_02">Dark Widget 02</string>
+    <string name="light_name_02">Light Widget 02</string>
+
+    <string name="dark_name_03">Dark Widget 03</string>
+    <string name="light_name_03">Light Widget 03</string>
+
+    <string name="dark_name_04">Dark Widget 04</string>
+    <string name="light_name_04">Light Widget 04</string>
+
+    <string name="dark_name_05">Dark Widget 05</string>
+    <string name="light_name_05">Light Widget 05</string>
+
+    <string name="dark_name_06">Dark Widget 06</string>
+    <string name="light_name_06">Light Widget 06</string>
+
+    <string name="dark_name_07">Dark Widget 07</string>
+    <string name="light_name_07">Light Widget 07</string>
+
+    <string name="dark_name_08">Dark Widget 08</string>
+    <string name="light_name_08">Light Widget 08</string>
+
+    <string name="dark_name_09">Dark Widget 09</string>
+    <string name="light_name_09">Light Widget 09</string>
+
+    <string name="dark_name_10">Dark Widget 10</string>
+    <string name="light_name_10">Light Widget 10</string>
+</resources>
