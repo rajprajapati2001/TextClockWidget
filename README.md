@@ -13,9 +13,9 @@ I am Raj And I have Created this Widget for Daily Purposes Its Like a Normal typ
 
 ## Screenshots
 ![s01](screenshots/mi_ss_img005-_01-05-merged.png)
-![s02](screenshots/mi_ss_img005-_05-10-merged.png)
-![s03](screenshots/mi_ss_img005-_10-15-merged.png)
-![s04](screenshots/mi_ss_img005-_15-20-merged.png)
+![s02](screenshots/mi_ss_img011-_05-10-merged.png)
+![s03](screenshots/mi_ss_img015-_10-15-merged.png)
+![s04](screenshots/mi_ss_img020-_15-20-merged.png)
 
 ## About
 >Developed By : `Raj P. Prajapati` on `06th June 2022 `/` Monday`.
